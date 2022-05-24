@@ -14,13 +14,13 @@ A lightweight wrapper for chipbot.
 1. Install package.
 
    ```bash
-   npm i chipbot
+   npm i chipbot-wrapper
    ```
 
 2. Add it to your project.
 
    ```ts
-   import { defineChipbot } from 'chipbot'
+   import { defineChipbot } from 'chipbot-wrapper'
 
    const chipbot = defineChipbot({
      id: 'my-chipbot-id',
@@ -37,7 +37,7 @@ A lightweight wrapper for chipbot.
 `Important:` chipbot has to be defined first (Follow step #2)
 
    ```ts
-   import { chipbot } from 'chipbot'
+   import { chipbot } from 'chipbot-wrapper'
 
    chipbot.hide()
    ```
